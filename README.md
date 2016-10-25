@@ -113,3 +113,62 @@ shaking animation.Also you can config it to show directly.
 	
 }
 ```
+#####6.Delegate Methods:
+```
+/**
+ *  clicked add button
+ */
+-(void)addBtnClickedInGridView:(XTImageGridView *)gridView;
+/**
+ *  clicked delete button
+ */
+-(void)deleteBtnClickedAtIndex:(int)index InGridView:(XTImageGridView *)gridView;
+/**
+ *  clicked grid view
+ */
+-(void)viewClickedAtindex:(int)index InGridView:(XTImageGridView *)gridView;
+```
+
+#####7.Properties:
+```
+/**
+ *  should show or hide add button
+ */
+@property (nonatomic,assign) BOOL showAddBtn;
+/**
+ *  should show or hide delete button
+ */
+@property (nonatomic,assign) BOOL showDeleteBtn;
+/**
+ *  should use shake animation when show delete button.
+ */
+@property (nonatomic,assign) BOOL showShakeAnimationWhenShowDeleteBtn;
+/**
+ *  grid view style
+ */
+@property (nonatomic,assign) XTImageGridViewStyle gridViewStyle;
+/**
+ *  grid numbers
+ */
+@property (nonatomic,assign) int numOfImageViews;
+/**
+ *  max numbers in one row
+ */
+@property (nonatomic,assign) int maxNumInRow;
+/**
+ *  two view's gap in one column
+ */
+@property (nonatomic,assign) CGFloat gapOfTwoViewInCol;
+/**
+ *  two view's gap in one row
+ */
+@property (nonatomic,assign) CGFloat gapOfTwoViewInRow;
+/**
+ *  grid view's size
+ */
+@property (nonatomic,assign) CGSize singleViewSize;
+/**
+ *  left,top,right,bottom margin
+ */
+@property (nonatomic,assign) UIEdgeInsets edgeInsets;
+```
