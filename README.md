@@ -30,7 +30,9 @@ The default action you want delete view,you should long press on the view,then t
 shaking animation.Also you can config it to show directly.
 
 ![Default](https://github.com/ronniechen888/XTImageGridView/blob/master/Document/gridview.png)
-After long press.
+
+#####After long press.
+
 ![Animation1](https://github.com/ronniechen888/XTImageGridView/blob/master/Document/gridview_after_long_press1.png)
 ![Animation2](https://github.com/ronniechen888/XTImageGridView/blob/master/Document/gridview_after_long_press2.png)
 ![Animation3](https://github.com/ronniechen888/XTImageGridView/blob/master/Document/gridview_after_long_press3.png)
