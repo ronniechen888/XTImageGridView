@@ -2,13 +2,13 @@
 //  ViewController.h
 //  XTImageGridViewDemo
 //
-//  Created by Ronnie Chen on 16/10/25.
+//  Created by Ronnie Chen on 2016/10/24.
 //  Copyright © 2016年 Ronnie Chen. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UITableViewController
 
 
 @end
