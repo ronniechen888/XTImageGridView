@@ -40,7 +40,7 @@ shaking animation.Also you can config it to show directly.
 
 ![Default1](https://github.com/ronniechen888/XTImageGridView/blob/master/Document/gridview_custom1.png)
 ![Default2](https://github.com/ronniechen888/XTImageGridView/blob/master/Document/gridview_custom2.png)
-###`XTImageGridViewStyleDefault` delegate method below can config view:
+#####`XTImageGridViewStyleDefault` delegate method below can config view:
 ```
 -(NSDictionary *)imageSourcesAtIndex:(int)index InGridView:(XTImageGridView *)gridView
 {
@@ -48,7 +48,7 @@ shaking animation.Also you can config it to show directly.
 }
 ```
      
-###`XTImageGridViewStyleCustom` delegate method below can config view:
+#####`XTImageGridViewStyleCustom` delegate method below can config view:
 ```
 -(void)customViewAtIndex:(int)index CurrentView:(UIView *)curView InGridView:(XTImageGridView *)gridView
 {
