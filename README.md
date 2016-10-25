@@ -29,7 +29,11 @@ add button at last.You can hide or show it.And the default single view has an im
 The default action you want delete view,you should long press on the view,then the delete button will be show and with
 shaking animation.Also you can config it to show directly.
 
-![Default](https://github.com/jivesoftware/PDTSimpleCalendar/raw/master/Documentation/default.png)
+![Default](https://github.com/ronniechen888/XTImageGridView/blob/master/Document/gridview.png)
+After long press.
+![Animation1](https://github.com/ronniechen888/XTImageGridView/blob/master/Document/gridview_after_long_press1.png)
+![Animation2](https://github.com/ronniechen888/XTImageGridView/blob/master/Document/gridview_after_long_press2.png)
+![Animation3](https://github.com/ronniechen888/XTImageGridView/blob/master/Document/gridview_after_long_press3.png)
 
      `XTImageGridViewStyleDefault`
      
