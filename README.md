@@ -3,6 +3,10 @@ XTImageGridView
 
 XTImageGridView is a very simple lib for build Grid View in iOS.
 
+##Which scenes can you use this libary?
+
+![Scene1](https://github.com/ronniechen888/XTImageGridView/blob/master/Document/scene1.png)
+![Scene2](https://github.com/ronniechen888/XTImageGridView/blob/master/Document/scene2.png)
 
 ##Configuration
 #####1.Add `XTImageGirdView` `SDWebImage` to your project.
