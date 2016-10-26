@@ -404,8 +404,7 @@
 		longRecognize.minimumPressDuration = 1;
 		[curView addGestureRecognizer:longRecognize];
 		
-		UITapGestureRecognizer *shortRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(shortTap:)];
-		[curView addGestureRecognizer:shortRecognizer];
+		
 	}else
 	{
 		if (self.gridViewDelegate && [self.gridViewDelegate respondsToSelector:@selector(customViewAtIndex:CurrentView:InGridView:)]) {
@@ -413,7 +412,8 @@
 		}
 	}
 	
-	
+	UITapGestureRecognizer *shortRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(shortTap:)];
+	[curView addGestureRecognizer:shortRecognizer];
 }
 
 #pragma mark - Property Values
